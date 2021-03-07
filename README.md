@@ -4,9 +4,11 @@
 
 ### 1. Build without args
 
-export HUB=registry.cn-hangzhou.aliyuncs.com/
+
 
 ```bash
+export HUB=registry.cn-hangzhou.aliyuncs.com/
+
 docker build \
   -t ${HUB}cloudnativeapps/builder:go1.15-alpine .
 ```
